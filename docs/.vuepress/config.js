@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
+    base:'/vuepress-demo/',
     themeConfig: {
         lastUpdated: 'Last Updated',
         nav: [{
