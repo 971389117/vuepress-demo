@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
-    lastUpdated: 'Last Updated',
     themeConfig: {
+        lastUpdated: 'Last Updated',
         nav: [{
                 text: 'Home',
                 link: '/'
