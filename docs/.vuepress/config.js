@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
+    lastUpdated: 'Last Updated', 
     themeConfig: {
         nav: [{
                 text: 'Home',
@@ -27,6 +28,21 @@ module.exports = {
                 ]
             }
         ],
-        sidebar:auto
+        sidebar: [{
+                title: '快速启动',
+                collapsable: true,
+                children: [
+                    '/get-started/',
+                    '/install/',
+                ]
+            },
+            {
+                title: '组件',
+                children: [
+                    '/cat/',
+                    '/dog/',
+                ]
+            }
+        ]
     }
 }
